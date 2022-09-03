@@ -13,3 +13,13 @@ for (let i = 0; i < 25; i++) {
     }
 }
 
+//Add event listener to mouse hover for all boxes
+let boxes = document.querySelectorAll(".box");
+boxes.forEach(function(value) {
+    value.addEventListener("mouseenter", changeBox);
+});
+
+//Adds alteredbox class to hovered boxes
+function changeBox(e) {
+    e.target.classList.add("alteredbox");
+}
