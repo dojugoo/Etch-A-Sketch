@@ -1,15 +1,20 @@
 #container {
     display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
 }
 
+.row {
+    display: flex;
+    flex-grow: 1;
+}
 /* properties of the grid boxes */
 .box {
     display: flex;
-    flex: 1 1 0;
+    flex-grow: 1;
     background-color: white;
-    border: 1px solid black;
-    height: 25px;
-    width: 25px;
 }
 
 /* changed properties of box after hover */
