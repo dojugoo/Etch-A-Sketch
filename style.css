@@ -10,12 +10,13 @@
     display: flex;
     flex-grow: 1;
 }
+
 /* properties of the grid boxes */
 .box {
     display: flex;
     flex-grow: 1;
     background-color: white;
-    border: 1px solid black; /* visualize the grid */
+    /*border: 1px solid black;  visualize the grid */
 }
 
 /* changed properties of box after hover */
